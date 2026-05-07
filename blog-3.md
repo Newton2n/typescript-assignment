@@ -4,6 +4,8 @@
 
 ### Reusable Component : We can create reuseable component by Generic like interface .It is handy to use on many function or class without making a new type ,lets se in code how we can do that
 
+code :
+
 ```
 
 interface ReUseAble<T> {
@@ -49,6 +51,9 @@ In upside i define a interface that is ReUseAble<T> this interface is flexible a
 
 ### Generic Function :By creating a generic function we are making that function to operate it on many types .It give use a huge power .
 
+
+code :
+
 ```
 function function1<T>(value: T): T {
   return value;
@@ -63,3 +68,7 @@ function1<number[]>([1, 2, 3]);
 ```
 
 #### in that code we making a generic function1, when we are calling this function we are pre defining the type of the functions parameter type or return type <T> in here by this way we can use this function on various type .
+
+
+
+### Conclusion : In the conclusion i can tell that in typescript world the genetic is really effective and useful to use , it make code re useable and enable use to follow DRY(do not repeat yourself) principle.
