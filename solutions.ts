@@ -1,4 +1,4 @@
-//? problem 1
+// solution 1
 
 const filterEvenNumbers = (arrayOfNumber: number[]): number[] => {
   const arrayOfEvenNumbers = arrayOfNumber.filter((number) => {
@@ -12,7 +12,7 @@ const filterEvenNumbers = (arrayOfNumber: number[]): number[] => {
 
 filterEvenNumbers([1, 2, 3, 4, 5, 6]);
 
-//? problem 2
+// solution 2
 
 const reverseString = (input: string): string => {
   const charArray: string[] = [];
@@ -30,7 +30,7 @@ const reverseString = (input: string): string => {
 
 reverseString("typescript");
 
-//? problem 3
+// solution 3
 
 type StringOrNumber = string | number;
 
@@ -54,7 +54,7 @@ const user = { id: 1, name: "John Doe", age: 21 };
 
 getProperty(user, "name");
 
-//? problem 5
+// solution 5
 
 interface Book {
   title: string;
@@ -76,7 +76,7 @@ const myBook = {
 
 toggleReadStatus(myBook);
 
-//? problem 6
+// solution 6
 
 class Person {
   name: string;
@@ -102,7 +102,7 @@ const student = new Student("Alice", 20, "A");
 
 student.getDetails();
 
-//? problem 7
+// solution 7
 
 const getIntersection = (arr1: number[], arr2: number[]): number[] => {
   const set = new Set(arr1);
