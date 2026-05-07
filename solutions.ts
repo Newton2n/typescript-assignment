@@ -10,7 +10,7 @@ const filterEvenNumbers = (arrayOfNumber: number[]): number[] => {
   return arrayOfEvenNumbers;
 };
 
-filterEvenNumbers([1, 2, 3, 4, 5, 6]);
+
 
 // solution 2
 
@@ -28,7 +28,6 @@ const reverseString = (input: string): string => {
   return joinReverseCharArr;
 };
 
-reverseString("typescript");
 
 // solution 3
 
@@ -41,8 +40,8 @@ const checkType = (input: StringOrNumber) => {
     return "Number";
   }
 };
-checkType("Hello");
-checkType(42);
+
+
 
 //? problem 4
 
@@ -50,9 +49,7 @@ const getProperty = <T, K extends keyof T>(obj: T, key: K) => {
   return obj[key];
 };
 
-const user = { id: 1, name: "John Doe", age: 21 };
 
-getProperty(user, "name");
 
 // solution 5
 
@@ -68,13 +65,9 @@ const toggleReadStatus = (bookObj: Book): Book & { isRead: boolean } => {
   return newObj;
 };
 
-const myBook = {
-  title: "TypeScript Guide",
-  author: "Jane Doe",
-  publishedYear: 2024,
-};
 
-toggleReadStatus(myBook);
+
+
 
 // solution 6
 
@@ -98,9 +91,7 @@ class Student extends Person {
   }
 }
 
-const student = new Student("Alice", 20, "A");
 
-student.getDetails();
 
 // solution 7
 
@@ -115,6 +106,4 @@ const getIntersection = (arr1: number[], arr2: number[]): number[] => {
     }
   });
   return matchedItems;
-};
-
-getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+}
