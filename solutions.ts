@@ -43,7 +43,7 @@ const checkType = (input: StringOrNumber) => {
 
 
 
-//? problem 4
+// solution 4
 
 const getProperty = <T, K extends keyof T>(obj: T, key: K) => {
   return obj[key];
