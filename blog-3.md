@@ -1,8 +1,8 @@
-# title: How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in .
+# Title: How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in .
 
 ## Introduction :Generic one of the most important concept in typescript world .It allow to create reuseable types . It work like function parameter, in generic type we pass different different types with safety to make a function or any data types reuseable with many types ,we defined it by angle bracket <T> this T is like type parameter .By this we can use many of version of a type without loosing typescript power.
 
-### Reusable Component : We can create reuseable component by Generic like interface .It is handy to use on many function or class without making a new type
+### Reusable Component : We can create reuseable component by Generic like interface .It is handy to use on many function or class without making a new type ,lets se in code how we can do that
 
 ```
 
@@ -42,9 +42,10 @@ const userResponse2: ReUseAble<UserDetailsPro> = {
     subscription: true,
   },
 };
-
-//in here ReUseAble<T> this interface is flexible and handy type it can use on various version we can pass types in <T> this generic param
 ```
+In upside i define a interface that is ReUseAble<T> this interface is flexible and handy type it can use on various version we can pass types in <T> this generic param.
+
+
 
 ### Generic Function :By creating a generic function we are making that function to operate it on many types .It give use a huge power .
 
